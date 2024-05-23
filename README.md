@@ -6,6 +6,8 @@ This project aims to determine who would have survived the Titanic disaster by u
 
 In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc)
 
+Create a data entry form using Streamlit to continuously receive new data from the internet, click [here](https://github.com/guievbs/titanic-kaggle/blob/main/src/app/app.py) to see the code
+
 ## Dataset
 
 Data retrieved from Kaggle, accessible [here](https://www.kaggle.com/competitions/titanic).
@@ -18,6 +20,7 @@ The analyses were conducted using the following technologies:
 - Python
 - Pandas
 - Seaborn
+- Streamlit
 - Sckit-Learn
 
 Refer to the [requirements.txt](https://github.com/guievbs/titanic-kaggle/blob/main/requirements.txt) to view all the required libraries and their versions
@@ -32,6 +35,11 @@ Since this dataset is for competitions, I made two submissions to see the scores
 
     1. Score: 0.744
     2. Score: 0.765
+
+## Streamlit Page
+
+![Passager Died](https://github.com/guievbs/titanic-kaggle/blob/main/images/die.png)
+![Passager Live](https://github.com/guievbs/titanic-kaggle/blob/main/images/live.png)
 
 ## Contributing
 
