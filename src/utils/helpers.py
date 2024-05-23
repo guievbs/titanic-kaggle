@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import OrdinalEncoder
 
-
 def is_male(df, column):
     return df[column].apply(lambda x: 1 if x == 'male' else 0)
 
@@ -22,4 +21,3 @@ def apply_ordinal_encoding(df):
     df = ord_enc.transform(df[['Embarked']])
 
     return df 
-
