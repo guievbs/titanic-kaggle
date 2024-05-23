@@ -111,9 +111,9 @@ if st.button("Submit"):
         # Make a prediction using the model
         prediction = model.predict(df)
         
-        st.write("Result:")
+        st.subheader("Result:")
         if prediction == 1:
             
-            st.write("The passenger made it out of the sinking ship alive")    
+            st.subheader("The passenger made it out of the sinking ship alive")    
         else:
-            st.write("The passenger tragically died")
+            st.subheader("The passenger tragically died")
