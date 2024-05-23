@@ -8,6 +8,10 @@ In this challenge, we ask you to build a predictive model that answers the quest
 
 Create a data entry form using Streamlit to continuously receive new data from the internet, click [here](https://github.com/guievbs/titanic-kaggle/blob/main/src/app/app.py) to see the code
 
+Codes
+- [Notebooks EDA](https://github.com/guievbs/titanic-kaggle/tree/main/src/features)
+- [Notebooks Models](https://github.com/guievbs/titanic-kaggle/tree/main/src/models) 
+
 ## Dataset
 
 Data retrieved from Kaggle, accessible [here](https://www.kaggle.com/competitions/titanic).
